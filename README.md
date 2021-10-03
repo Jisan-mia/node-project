@@ -17,7 +17,7 @@ JavaScript Engine + C++ Program = node.js
 
 
 ### What is module
-Module is just a file in nodejs every file is a module npm module
+Module is just a file in nodejs every file is a module.
 
 ### IIFE -> Immediately Invoked function Expression
 ---
