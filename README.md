@@ -70,7 +70,8 @@ console.log('join: ', path.join(__dirname, 'order', 'app.js'))
 ```
 
 ### File system of fs module
- 
+---
+
 With this we can
   - create folder/file
   - read file data
