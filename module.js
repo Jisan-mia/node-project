@@ -127,4 +127,44 @@ const os = require('os');
 
 
 // Events module ***
-const Emitter = require('events')
+const Emitter = require('events') // it returns class. firstly we need to create object 
+
+const myEmitter = new Emitter();
+
+// first parameter is eventName and the second is event listener
+// myEmitter.on('somename', (data) => {
+//   console.log(data)
+// })
+
+// then we need to emit the event with the same eventName and pass the listener data
+// myEmitter.emit('somename', {
+//   name: 'Jisan'
+// })
+/*
+class Auth extends Emitter{
+  register(username) {
+    console.log('Registered successfully')
+    this.emit('registered', username)
+  }
+}
+const auth = new Auth();
+
+// listen
+// verify email
+auth.on('registered', (data) => {
+  console.log(`sending email to ${data}`)
+} )
+
+// welcome email
+auth.on('registered', (data) => {
+  console.log(`sending welcome email to ${data}`)
+} )
+
+auth.register('Jisan Mia')
+
+
+*/
+
+
+// http module ***
+//got to ./index
