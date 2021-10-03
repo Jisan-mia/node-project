@@ -28,7 +28,7 @@ Every node file under the hood wrapper
 })() 
 ```
 
-Require a package/library and store it on a variable
+Require a module and store it on a variable
 ```js
 const colorCli = require('cli-color');
 console.log(colorCli.green('Hello nodejs'))
