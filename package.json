@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-project",
+  "version": "1.0.0",
+  "description": "project of nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jisan-mia/node-project.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Jisan Mia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jisan-mia/node-project/issues"
+  },
+  "homepage": "https://github.com/Jisan-mia/node-project#readme",
+  "dependencies": {
+    "cli-color": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
